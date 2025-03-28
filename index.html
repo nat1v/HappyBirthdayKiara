@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday KIARAAA!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #ffcfdf 0%, #b0f3f3 100%);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4">
+    <div class="text-center max-w-2xl bg-white bg-opacity-80 rounded-2xl shadow-2xl p-8 transform transition duration-500 hover:scale-105">
+        <h1 class="text-5xl font-bold mb-6 text-pink-600" style="font-family: 'Satisfy', cursive;">
+            Happy Birthday Dinzzzz!
+        </h1>
+        
+        <div class="mb-6">
+            <img src="kiara.jpg" alt="Kiara" class="mx-auto rounded-full w-64 h-64 object-cover border-4 border-pink-300 shadow-lg">
+        </div>
+        
+        <div class="text-xl mb-6 text-gray-800" style="font-family: 'Montserrat', sans-serif;">
+            <p class="mb-4">
+                Age bersyukur bisa kenal kau dinz 
+                I celebrate the most incredible person in my world - KIARAAAA 🎉❤️
+            </p>
+            <p class="italic text-pink-700">
+                "You're not just another year older, 
+                you're another year more amazing." ASEKKK
+            </p>
+        </div>
+        
+        <div class="mt-8">
+            <button onclick="toggleHearts()" class="bg-pink-500 text-white px-6 py-3 rounded-full hover:bg-pink-600 transition duration-300 shadow-md">
+                Jangan DI KLIK PLSSS
+            </button>
+        </div>
+        
+        <div id="hearts" class="hidden">
+            <div class="text-center mt-6 text-red-500 text-2xl">
+                ❤️ Kanggoin, untuk sekarang cuman bisa ngucapin ni ja ❤️
+            </div>
+        </div>
+    </div>
+    <script>
+        function toggleHearts() {
+            const heartsDiv = document.getElementById('hearts');
+            heartsDiv.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
